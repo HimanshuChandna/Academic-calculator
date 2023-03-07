@@ -1,0 +1,43 @@
+header{
+
+    text-align: center;
+    font-size:30px;
+
+}
+
+div#sub-title{
+
+   text-align: center;
+   font-size:20px; 
+
+}
+
+legend{
+
+    font-size:40px;
+}
+
+fieldset{
+
+    font-size:35px;
+
+}
+
+input[type=radio]{
+
+    width:2em;
+    height:2em;
+    border:0px;
+
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Chrome, Safari, Opera */
+    transform: scale(1.2);
+}
+
+input[type=date]{
+
+    height:fit-content;
+    width:fit-content;
+    font-size:35px;   
+
+}
