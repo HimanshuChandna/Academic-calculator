@@ -15,6 +15,7 @@ div#sub-title{
 legend{
 
     font-size:40px;
+
 }
 
 fieldset{
@@ -22,6 +23,52 @@ fieldset{
     font-size:35px;
 
 }
+
+#fullname{
+
+    /* padding:1rem; */
+    margin-bottom:1rem;
+}
+
+#class_section{
+
+    margin-bottom:1rem;
+}
+
+#roll_number{
+
+    margin-bottom:1rem;
+}
+
+#passing-year{
+
+    margin-bottom:1rem;
+}
+
+#passing-status{
+
+    margin-bottom:1rem;
+}
+
+#date_of_birth{
+
+    margin-bottom:1rem;
+}
+
+#age{
+
+    margin-bottom:1rem;
+}
+
+table{
+
+    margin-top:1rem;
+    margin-bottom:1rem;
+
+}
+
+
+
 
 input[type=radio]{
 
@@ -41,3 +88,97 @@ input[type=date]{
     font-size:35px;   
 
 }
+
+.details{
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.details th{
+
+    background-color: lightpink;
+
+}
+.table, th, td{
+
+    border: 1px solid;
+    text-align: center;
+    width:26%;
+    padding:7px;
+
+}
+
+input[type=text]{
+
+    font-size:27px;
+    text-align:center
+}
+
+
+input[type=number]{
+
+    font-size:27px;
+    text-align: center;
+
+
+}
+
+input#calculate[type=submit]{
+
+   height: 50px;
+   width:25%;
+   border-radius: 50px;
+   background-color: aquamarine;
+   text-align: center;
+   font-size:20px;
+
+}
+
+input#submit[type=submit]{
+
+   height: 50px;
+   width:28%;
+   border-radius: 50px;
+   background-color: lightgrey;
+   text-align: center;
+   font-size:20px;
+  margin-left:2%;
+}
+/* .academic-details{
+
+    display:flex;
+    
+}
+
+.subject-name{
+
+    flex:25%;
+} */
+
+/* 
+#subject-name{
+
+    display:flex;
+    flex-direction: column;
+    flex:25%;
+}
+
+#subject-marks{
+
+    display:flex;
+    flex-direction: column;
+}
+
+#percentage{
+
+    display:flex;
+    flex-direction:column;
+}
+
+#grade{
+
+    display:flex;
+    flex-direction:column;
+} */
